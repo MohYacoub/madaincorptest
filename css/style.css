@@ -1,0 +1,80 @@
+.container{
+    display:grid; 
+    grid-template-columns: repeat(2,1fr);
+    column-gap:1rem;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  #cathealth{
+    justify-content: center;
+    text-align: center;
+    width: 35rem;
+    height: 5rem;
+
+  }
+
+  #doghealth{
+    justify-content: center;
+text-align: center;
+    width: 32rem;
+    height: 5rem;
+
+  }
+
+  .cat_health_bar{
+    text-align: center;
+    justify-content: center;
+  }
+
+  .cat-container img{
+      text-align: center;
+      justify-content: center;
+      width: 30rem;
+      height: auto;
+      margin: 5rem;
+      display: block;
+  }
+
+  .dog-container img{
+    text-align: center;
+    justify-content: center;
+    width: 20rem;
+    height: 22rem;
+    margin: 5rem;
+    display: block;
+}
+
+
+
+  button{
+      width: 120px;
+      height: 30px;
+      justify-content: center;
+    text-align: center; 
+    margin-left: 40%;
+    
+  }
+
+
+
+  #winner{
+    color: brown;
+    justify-content: center;
+  text-align: center; 
+  }
+
+
+  #rest-btn{
+      display: none;
+      width: 10%px;
+      height: 30px;
+      justify-content: center;
+     text-align: center; 
+    margin-left: 45%;
+  }
+
+
+
+

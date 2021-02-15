@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Vs Dog Game</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script type="text/javascript" src="./js/game.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="cat-container">
+
+            <div class="cat_health_bar">
+                <progress id="cathealth" value="100" max="100"></progress>
+            </div>
+
+            <img src="./images/cat.jpg">
+
+            <button id='catbtn' onclick="catattack()">Attack</button>
+
+        </div>
+
+        <div class="dog-container">
+
+            <div class="dog_health_bar">
+                <progress id="doghealth" value="100" max="100"></progress>
+            </div>
+
+            <img src="./images/dog.jpg">
+
+            <button onclick="dogattack()" id='dogbtn' disabled>Attack</button>
+
+        </div>
+
+
+
+    </div>
+
+    <div id="winner">
+        <h1><span id="winnername"></span></h1>
+    </div>
+
+    <button onclick="restgame()" id="rest-btn">Reset Game</button>
+</body>
+
+</html>
